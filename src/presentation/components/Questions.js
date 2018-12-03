@@ -41,10 +41,10 @@ class Questions extends Component {
                     <Question
                         handleChange={this.props.handleChange}
                         question="How would you rate your most recent meal?"
-                        option1Label="delicious"
-                        option2Label="good"
+                        option1Label="Delicious"
+                        option2Label="Good"
                         option3Label="meh"
-                        option4Label="gross"
+                        option4Label="Gross"
                         buttonText="next question"
                         questionNumber={2}
                         value={this.props.value}
@@ -68,11 +68,11 @@ class Questions extends Component {
 
                     <Question
                         handleChange={this.props.handleChange}
-                        question="How would you define your day"
-                        option1Label="Amazing"
-                        option2Label="great"
-                        option3Label="bleh"
-                        option4Label="bleh"
+                        question="Has any of the following happened to you today?"
+                        option1Label="Completed a personal life goal (ex. bought my first home!)"
+                        option2Label="Completed a personal daily goal (ex. ate healthy today!)"
+                        option3Label="Cothing postive nor nothing negative happened"
+                        option4Label="A personal fear came to fruition"
                         questionNumber={4}
                         buttonText="next question"
                         value={this.props.value}
@@ -82,11 +82,11 @@ class Questions extends Component {
                     {/* this has to be the last question for the application to work */}
                     <Question
                         handleChange={this.props.handleChange}
-                        question="How would you define your day"
-                        option1Label="Amazing"
-                        option2Label="great"
-                        option3Label="bleh"
-                        option4Label="bleh"
+                        question="Have you the best you could be today?"
+                        option1Label="Oh yeah, any better I'd be god"
+                        option2Label="Definitely put 80% of an effort to be the best I could be"
+                        option3Label="I just stick to myself"
+                        option4Label="Ok...I was an asshole today"
                         questionNumber={5}
                         value={this.props.value}
                         buttonText="To Cuddle or not to Cuddle?"
