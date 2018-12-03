@@ -85,17 +85,6 @@ class App extends Component {
     dbRef.push(this.state.finalAnswer)
     this.setState({ results:false})
   }
-  restartQuiz = (e)=>{
-    e.preventDefault();
-    this.setState({
-      finalAnswer: 0,
-      startQuiz: false,
-      showQuiz: false,
-      userName: "",
-      results: false,
-      showResults: []
-    })
-  }
 
   render() {
     return <div className="App">
@@ -112,7 +101,6 @@ class App extends Component {
             return <li className="results__list wrapper">{resultString}</li>;
           })}
         </ul>
-        <button onclick={this.restartQuiz}>Retake Quiz</button>
       </div>;
   }
 }
