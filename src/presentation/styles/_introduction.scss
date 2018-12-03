@@ -1,0 +1,42 @@
+.title {
+    text-align:center;
+    font-size:$titleSize;
+    font-family:$titleFont;
+}
+.d,
+.t,
+.c {
+    text-transform: uppercase;
+    color: pink;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: 0.5px;
+}
+.introduction {
+    height: 100vh;
+}
+.introduction__form {
+    display:flex;
+    flex-direction: column;
+}
+
+.introduction__button {
+    @include buttonStyle(20px);
+}
+
+.introduction__input {
+    padding:10px;
+    margin-bottom:5px;
+    border:1px solid black;
+    font-size:$textSize;
+    font-family:$textFont;
+}
+
+.introduction__instructions {
+    font-size:$textSize;
+    font-family:$textFont;
+    margin-top:50px;
+}
+#introduction__submit {
+    @include buttonStyle($textFont);
+    margin-top:20px;
+}

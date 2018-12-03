@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+$blue: #69BDE6;
+$titleSize: 5rem;
+$textSize: 1.6rem;
+$titleFont: 'Robot', sans-serif;
+$textFont: 'Montserrat', sans-serif;
+
+@mixin buttonStyle($fontSize){
+    
+    border: 0.5px solid black;
+    background-color:pink;
+    text-align: center;
+    box-shadow:0.5px 3px 4px rgba(0,0,0,0.5);
+    font-size: $fontSize;
+    height:40px;
+    text-transform:uppercase;
+}
+
+.no-display{
+    display:none;
+}
+.wrapper{
+    max-width: 340px;
+    margin: 0 auto;
+}

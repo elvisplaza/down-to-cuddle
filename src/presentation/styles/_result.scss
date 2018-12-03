@@ -1,0 +1,33 @@
+.results {
+    font-size:$textSize;
+    font-family:$textFont;
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+    text-align:left;
+    line-height:1.6;
+
+}
+
+.results__button{
+    @include buttonStyle($textSize);
+    margin-top:30px;
+
+}
+.results__title{
+    text-align: center;
+    margin-top:50px;
+}
+.results__list{
+    font-size:$textSize;
+    font-family: $textFont;
+    border:1px solid $blue;
+    list-style-type: none;
+    line-height:1.6;
+    padding:10px;
+    margin-top:10px;
+
+}
+ul {
+    padding:0;
+}

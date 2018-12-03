@@ -1,0 +1,23 @@
+@media(min-width:500px){
+    .wrapper {
+        max-width:450px;
+    }
+}
+
+@media(min-width:700px){
+    .wrapper {
+    max-width:600px;
+    }
+}
+
+@media(min-width:1000px){
+    .wrapper{
+        max-width:800px;
+    }
+}
+
+@media(min-width:1280px){
+    .wrapper {
+        max-width:1080px;
+    }
+}

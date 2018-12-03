@@ -1,0 +1,28 @@
+.question{
+    height:90vh;
+    padding:20px;
+    font-size:$textSize;
+    margin-top:20px;
+    padding:20px;
+    text-align: center;
+}
+.questions__title{
+    text-align: center;
+    font-size:$titleSize;
+    font-family:$titleFont;
+    border-bottom: 1px solid black
+}
+
+.questions__options {
+    display:flex;
+    align-items: center;
+    // display:block;
+    margin-right:20px;
+}
+
+
+.questions__button{
+    @include buttonStyle($textSize);
+    margin-top:20px;
+    width:90%;
+}
