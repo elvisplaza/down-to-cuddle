@@ -184,8 +184,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .questions__options {
   display: flex;
+  flex-direction: flex-start;
   align-items: center;
-  margin-right: 20px; }
+  margin-right: 20px;
+  padding: 20px; }
 
 .questions__button {
   border: 0.5px solid black;

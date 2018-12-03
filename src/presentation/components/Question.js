@@ -7,53 +7,61 @@ const Question = (props) =>{
             <p>{props.question}</p>
 
             <div className="questions__options">
-                <label htmlFor={`answer${props.questionNumber}`} className="visuallyhidden">{props.option1Label}</label>
+                
                 <input
+                    id={`answer1`}
                     type="radio"
                     name={`answer${props.questionNumber}`}
                     value={20}
                     onChange={props.handleChange}
                     className={"questions__options"}
                 />
-                <p>{props.option1Label}</p>
+                <label htmlFor={`answer1`} className="">{props.option1Label}</label>
+               
             </div>
 
 
             <div className="questions__options">
-                <label htmlFor={`answer${props.questionNumber}`} className="visuallyhidden">{props.option2Label}</label>
+                
                 <input
+                    id={`answer2`}
                     type="radio"
                     name={`answer${props.questionNumber}`}
                     value={15}
                     onChange={props.handleChange}
                     className={"questions__options"}
                 />
-                <p>{props.option2Label}</p>
+                <label htmlFor={`answer2`} className="">{props.option2Label}</label>
+               
             </div>
 
 
             <div className="questions__options">
-                <label htmlFor={`answer${props.questionNumber}`} className="visuallyhidden">{props.option3Label}</label>
+                
                 <input
+                    id={`answer3`}
                     type="radio"
                     name={`answer${props.questionNumber}`}
                     value={10}
                     onChange={props.handleChange}
                     className={"questions__options"}
                 />
-                <p>{props.option3Label}</p>
+                <label htmlFor={`answer3`} className="">{props.option3Label}</label>
+                
             </div>
 
             <div className="questions__options">
-                <label htmlFor={`answer${props.questionNumber}`} className="visuallyhidden">{props.option4Label}</label>
+                
                 <input
+                    id={`answer4`}
                     type="radio"
                     name={`answer${props.questionNumber}`}
                     value={0}
                     onChange={props.handleChange}
                     className={"questions__options"}
                 />
-                <p>{props.option4Label}</p>
+                <label htmlFor={`answer4`} className="">{props.option4Label}</label>
+               
             </div>
 
             <button className="questions__button"onClick={props.onClick}>{props.buttonText}</button>

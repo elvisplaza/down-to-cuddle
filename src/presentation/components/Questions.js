@@ -71,7 +71,7 @@ class Questions extends Component {
                         question="Has any of the following happened to you today?"
                         option1Label="Completed a personal life goal (ex. bought my first home!)"
                         option2Label="Completed a personal daily goal (ex. ate healthy today!)"
-                        option3Label="Cothing postive nor nothing negative happened"
+                        option3Label="Nothing postive nor nothing negative happened"
                         option4Label="A personal fear came to fruition"
                         questionNumber={4}
                         buttonText="next question"
@@ -82,7 +82,7 @@ class Questions extends Component {
                     {/* this has to be the last question for the application to work */}
                     <Question
                         handleChange={this.props.handleChange}
-                        question="Have you the best you could be today?"
+                        question="Have you been the best person you could be today?"
                         option1Label="Oh yeah, any better I'd be god"
                         option2Label="Definitely put 80% of an effort to be the best I could be"
                         option3Label="I just stick to myself"
